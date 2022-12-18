@@ -11,6 +11,7 @@
 		89A3BD8D292DAD1300070C84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3BD8C292DAD1300070C84 /* ContentView.swift */; };
 		89A3BD8F292DAD1C00070C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A3BD8E292DAD1C00070C84 /* Assets.xcassets */; };
 		89A3BD92292DAD1C00070C84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A3BD91292DAD1C00070C84 /* Preview Assets.xcassets */; };
+		89A3BD9929317A1700070C84 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3BD9829317A1700070C84 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		89A3BD8C292DAD1300070C84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89A3BD8E292DAD1C00070C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A3BD91292DAD1C00070C84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89A3BD9829317A1700070C84 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				89A3BD8C292DAD1300070C84 /* ContentView.swift */,
 				89A3BD8E292DAD1C00070C84 /* Assets.xcassets */,
 				89A3BD90292DAD1C00070C84 /* Preview Content */,
+				89A3BD9829317A1700070C84 /* SoundPlayer.swift */,
 			);
 			path = MotionBearBell;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89A3BD8D292DAD1300070C84 /* ContentView.swift in Sources */,
+				89A3BD9929317A1700070C84 /* SoundPlayer.swift in Sources */,
 				89A3BD8B292DAD1300070C84 /* MotionBearBellApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MotionBearBell/Preview Content\"";
+				DEVELOPMENT_TEAM = BVUR9767C5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MotionBearBell/Preview Content\"";
+				DEVELOPMENT_TEAM = BVUR9767C5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
